@@ -4,22 +4,21 @@ on: [pull_request]
 
 jobs:
   build-and-test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install Qt Creator and MinGW
+    - name: Install Qt Creator and build essentials
       run: |
-        choco install qt-creator -y
-        choco install mingw make -y
+        sudo apt-get update -y
+        sudo apt-get install qtcreator build-essential -y
 
     - name: Build project
       run: |
-        "C:\Program Files\Qt\Tools\QtCreator\bin\qtcreator.exe" -noload Welcome -noload QmlDesigner -noload DeviceMode -noload TestIntegrationMode -noload Profile -noload Help -no-analytics
         qmake HD-Embalagens.pro
-        mingw32-make
+        make
 
     - name: Run functional tests
       run: |
