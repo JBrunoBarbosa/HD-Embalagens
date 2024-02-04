@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>ProductWidget</class>
- <widget class="QWidget" name="Produtos">
+ <class>SalesWidget</class>
+ <widget class="QWidget" name="Sales">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Cadastro de Produtos</string>
+   <string>Registro de Vendas</string>
   </property>
   <property name="styleSheet">
    <string notr="true">
@@ -23,14 +23,14 @@
         margin: 5px;
         font-family: "Arial Black";
     }
-    QLineEdit, QDateEdit {
+    QLineEdit, QDateEdit, QComboBox {
         background-color: #3C3C39;
         color: white;
         border: 1px solid #555;
         border-radius: 5px;
         padding: 1px 5px;
         margin: 5px;
-        height: 25px;
+        height: 40px;
         font-family: "Arial Black";
     }
     QPushButton {
@@ -39,21 +39,12 @@
         border-radius: 5px;
         padding: 5px;
         margin: 10px;
-        height: 40px; /* Altura fixa em pixels */
+        height: 40px;
+	width: 80px;
         font-family: "Arial Black";
     }
     QPushButton:hover {
         background-color: #6C6C69;
-    }
-    QComboBox {
-        background-color: #3C3C39;
-        color: white;
-        border: 1px solid #555;
-        border-radius: 5px;
-        padding: 1px 5px;
-        margin: 5px;
-        height: 25px;
-        font-family: "Arial Black";
     }
     QTableWidget {
         background-color: #3C3C39;
@@ -102,7 +93,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Cadastro de Produtos</string>
+         <string>Registro de Vendas</string>
         </property>
        </widget>
       </item>
@@ -112,53 +103,50 @@
          <number>15</number>
         </property>
         <item row="0" column="0">
-         <widget class="QLabel" name="labelName">
+         <widget class="QLabel" name="labelProduct">
           <property name="text">
-           <string>Nome do Produto:</string>
+           <string>Produto:</string>
           </property>
          </widget>
         </item>
-        <item row="0" column="1" colspan="2">
-         <widget class="QLineEdit" name="editName"/>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="editProduct"/>
+        </item>
+        <item row="0" column="2" colspan="4">
+         <widget class="QPushButton" name="buttonSearchProduct">
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QLabel" name="labelPrice">
+         <widget class="QLabel" name="labelQuantity">
           <property name="text">
-           <string>Preço por Unidade:</string>
+           <string>Quantidade:</string>
           </property>
          </widget>
         </item>
+	<item row="1" column="3">
+    	 <widget class="QLabel" name="labelTotal">
+          <property name="text">
+            <string>Total:</string>
+          </property>
+    	 </widget>
+	</item>
+	<item row="1" column="4">
+   	 <widget class="QLineEdit" name="editTotal"/>
+	</item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="editPrice"/>
+         <widget class="QLineEdit" name="editQuantity"/>
         </item>
-        <item row="1" column="2">
-         <widget class="QLabel" name="labelStock">
-          <property name="text">
-           <string>Quantidade Adicionada no Estoque:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="3">
-         <widget class="QLineEdit" name="editStock"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="labelSupplier">
-          <property name="text">
-           <string>Nome do Fornecedor:</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLineEdit" name="editSupplier"/>
-        </item>
-        <item row="2" column="2">
+        <item row="3" column="0">
          <widget class="QLabel" name="labelDate">
           <property name="text">
-           <string>Data da Adição:</string>
+           <string>Data:</string>
           </property>
          </widget>
         </item>
-        <item row="2" column="3">
+        <item row="3" column="1">
          <widget class="QDateEdit" name="dateEdit"/>
         </item>
        </layout>
@@ -169,23 +157,9 @@
          <number>10</number>
         </property>
         <item>
-         <widget class="QPushButton" name="buttonSubmit">
+         <widget class="QPushButton" name="buttonAddSale">
           <property name="text">
-           <string>Cadastrar</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="buttonUpdate">
-          <property name="text">
-           <string>Alterar</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="buttonDelete">
-          <property name="text">
-           <string>Deletar</string>
+           <string>Adicionar Venda</string>
           </property>
          </widget>
         </item>
@@ -195,20 +169,20 @@
     </widget>
    </item>
    <item>
-    <widget class="QTableWidget" name="tableWidget">
+    <widget class="QTableWidget" name="stockTableWidget">
      <column>
       <property name="text">
-       <string>Id</string>
+       <string>Id Produto</string>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>Nome</string>
+       <string>Produto</string>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>Quantidade</string>
+       <string>Em Estoque</string>
       </property>
      </column>
      <column>
@@ -216,14 +190,33 @@
        <string>Preço</string>
       </property>
      </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="salesTableWidget">
      <column>
       <property name="text">
-       <string>Fornecedor</string>
+       <string>Id Venda</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Produto</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Vendido</string>
       </property>
      </column>
      <column>
       <property name="text">
        <string>Data</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Total</string>
       </property>
      </column>
     </widget>
