@@ -3,6 +3,8 @@
 #include "unitproduct.h"
 #include <cassert>
 
+#ifdef MAIN_TEST
+
 int main() {
     UnitUser unitUser;
     unitUser.testId();
@@ -29,3 +31,4 @@ int main() {
 
     return 0;
 }
+#endif

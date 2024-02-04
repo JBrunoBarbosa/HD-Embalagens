@@ -4,6 +4,17 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 
+# Seção para a aplicação principal
+contains(CONFIG, debug) {
+    DEFINES += MAIN_APP
+}
+
+
+# Seção para os testes
+contains(CONFIG, test) {
+    DEFINES += MAIN_TEST
+}
+
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
@@ -17,7 +28,11 @@ SOURCES += \
     src/sources/saleimpl.cpp \
     src/sources/saleswidget.cpp \
     src/sources/userimpl.cpp \
-    src/sources/userwidget.cpp
+    src/sources/userwidget.cpp \
+    tests/Unitario/unitmain.cpp \
+    tests/Unitario/unitproduct.cpp \
+    tests/Unitario/unitsale.cpp \
+    tests/Unitario/unituser.cpp
 
 HEADERS += \
     src/headers/databasemanager.h \
@@ -30,7 +45,10 @@ HEADERS += \
     src/headers/productwidget.h \
     src/headers/user.h \
     src/headers/userimpl.h \
-    src/headers/userwidget.h
+    src/headers/userwidget.h \
+    tests/Unitario/unitproduct.h \
+    tests/Unitario/unitsale.h \
+    tests/Unitario/unituser.h
 
 FORMS += \
     src/ui/mainwindow.ui \
@@ -45,14 +63,3 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     icon.qrc\
-
-CONFIG(debug, debug|release) {
-    SOURCES += tests/Unitario/unitmain.cpp\
-                tests/Unitario/unitproduct.cpp \
-                tests/Unitario/unitsale.cpp \
-                tests/Unitario/unituser.cpp
-
-    HEADERS += tests/Unitario/unitproduct.h \
-               tests/Unitario/unitsale.h \
-               tests/Unitario/unituser.h
-}

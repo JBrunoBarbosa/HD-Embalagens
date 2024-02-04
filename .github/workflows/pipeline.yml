@@ -20,10 +20,11 @@ jobs:
         qmake HD-Embalagens.pro
         make
 
-    - name: Run functional tests
-      run: |
-        # Comandos para executar seus testes funcionais
-
     - name: Run unit tests
+      run: |
+        qmake CONFIG+=test
+        make
+
+    - name: Run functional tests
       run: |
         # Comandos para executar seus testes de unidade

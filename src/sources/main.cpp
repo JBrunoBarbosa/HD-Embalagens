@@ -2,6 +2,7 @@
 #include <QApplication>
 #include <QIcon>
 
+#ifdef MAIN_APP
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     MainWindow mainWindow;
@@ -9,3 +10,4 @@ int main(int argc, char *argv[]) {
     mainWindow.show();
     return app.exec();
 }
+#endif
