@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SalesWidget</class>
+ <widget class="QWidget" name="Sales">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de Vendas</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #333;
+    }
+    QLabel {
+        color: white;
+        margin: 5px;
+        font-family: "Arial Black";
+    }
+    QLineEdit, QDateEdit, QComboBox {
+        background-color: #3C3C39;
+        color: white;
+        border: 1px solid #555;
+        border-radius: 5px;
+        padding: 1px 5px;
+        margin: 5px;
+        height: 25px;
+        font-family: "Arial Black";
+    }
+    QPushButton {
+        background-color: #5C5C59;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 10px;
+        height: 40px;
+        font-family: "Arial Black";
+    }
+    QPushButton:hover {
+        background-color: #6C6C69;
+    }
+    QTableWidget {
+        background-color: #3C3C39;
+        color: white;
+        border: 1px solid #555;
+        border-radius: 5px;
+        font-family: "Arial Black";
+    }
+    QTableWidget QHeaderView::section {
+        background-color: #5C5C59;
+        color: white;
+        font-family: "Arial Black";
+    }
+    QTableWidget QHeaderView::section:checked {
+        background-color: #6C6C69;
+    }
+    QTableWidget::item {
+        background-color: #3C3C39;
+        color: white;
+    }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>10</number>
+   </property>
+   <property name="margin" stdset="0">
+    <number>10</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="formContainer" native="true">
+     <layout class="QVBoxLayout" name="verticalLayoutContainer">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="margin" stdset="0">
+       <number>10</number>
+      </property>
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Arial Black</family>
+          <pointsize>36</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Registro de Vendas</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="formLayout">
+        <property name="spacing">
+         <number>15</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelProduct">
+          <property name="text">
+           <string>Produto:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" colspan="2">
+         <widget class="QLineEdit" name="editProduct"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QPushButton" name="buttonSearchProduct">
+          <property name="text">
+           <string>Buscar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labelQuantity">
+          <property name="text">
+           <string>Quantidade:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="editQuantity"/>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="labelDate">
+          <property name="text">
+           <string>Data:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QDateEdit" name="dateEdit"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="buttonLayout">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="QPushButton" name="buttonAddSale">
+          <property name="text">
+           <string>Adicionar Venda</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="stockTableWidget">
+     <column>
+      <property name="text">
+       <string>Id Produto</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Produto</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Em Estoque</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="salesTableWidget">
+     <column>
+      <property name="text">
+       <string>Id Venda</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Produto</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Vendido</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Data</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

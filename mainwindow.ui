@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="HD Embalagens">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>HD Embalagens</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget { background-color: #333; color: #fff; }</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome_2">
+    <property name="title">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuUsu_rios">
+    <property name="title">
+     <string>Usuários</string>
+    </property>
+    <addaction name="navigateToUsers"/>
+   </widget>
+   <widget class="QMenu" name="menuProdutos_2">
+    <property name="title">
+     <string>Produtos</string>
+    </property>
+    <addaction name="navigateToProducts"/>
+   </widget>
+   <widget class="QMenu" name="menuVendas_2">
+    <property name="title">
+     <string>Vendas</string>
+    </property>
+    <addaction name="navigateToSales"/>
+   </widget>
+   <addaction name="menuHome_2"/>
+   <addaction name="menuUsu_rios"/>
+   <addaction name="menuProdutos_2"/>
+   <addaction name="menuVendas_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="navigateToUsers">
+   <property name="text">
+    <string>Gerenciar Usuários</string>
+   </property>
+  </action>
+  <action name="navigateToProducts">
+   <property name="text">
+    <string>Gerenciar Produtos</string>
+   </property>
+  </action>
+  <action name="navigateToSales">
+   <property name="text">
+    <string>Gerenciar Vendas</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
