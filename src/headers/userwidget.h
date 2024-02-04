@@ -2,6 +2,7 @@
 #define USERWIDGET_H
 
 #include <QWidget>
+#include "databasemanager.h"
 
 namespace Ui {
 class UserWidget;
@@ -14,8 +15,15 @@ public:
     explicit UserWidget(QWidget *parent = nullptr);
     ~UserWidget();
 
+private slots:
+    void onButtonSubmitClicked();
+    void createTable();
+
 private:
     Ui::UserWidget *ui;
+    DatabaseManager dbManager;
+
+    void loadUsers();
 };
 
 #endif // USERWIDGET_H

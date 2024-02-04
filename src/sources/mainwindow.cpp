@@ -1,8 +1,8 @@
-#include "mainwindow.h"
+#include "../headers/mainwindow.h"
 #include "ui_mainwindow.h"
-#include "userwidget.h"
-#include "productwidget.h"
-#include "saleswidget.h"
+#include "../headers/userwidget.h"
+#include "../headers/productwidget.h"
+#include "../headers/saleswidget.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),

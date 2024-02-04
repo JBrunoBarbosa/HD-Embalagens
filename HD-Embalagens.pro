@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -9,23 +9,34 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    main.cpp \
-    mainwindow.cpp \
-    productwidget.cpp \
-    saleswidget.cpp \
-    userwidget.cpp
+    src/sources/databasemanager.cpp \
+    src/sources/main.cpp \
+    src/sources/mainwindow.cpp \
+    src/sources/productimpl.cpp \
+    src/sources/productwidget.cpp \
+    src/sources/saleimpl.cpp \
+    src/sources/saleswidget.cpp \
+    src/sources/userimpl.cpp \
+    src/sources/userwidget.cpp
 
 HEADERS += \
-    mainwindow.h \
-    productwidget.h \
-    saleswidget.h \
-    userwidget.h
+    src/headers/databasemanager.h \
+    src/headers/mainwindow.h \
+    src/headers/sale.h \
+    src/headers/saleimpl.h \
+    src/headers/saleswidget.h \
+    src/headers/product.h \
+    src/headers/productimpl.h \
+    src/headers/productwidget.h \
+    src/headers/user.h \
+    src/headers/userimpl.h \
+    src/headers/userwidget.h
 
 FORMS += \
-    mainwindow.ui \
-    productwidgetwindow.ui \
-    saleswidgetwindow.ui \
-    userwidgetwindow.ui
+    src/ui/mainwindow.ui \
+    src/ui/productwidgetwindow.ui \
+    src/ui/saleswidgetwindow.ui \
+    src/ui/userwidgetwindow.ui \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
