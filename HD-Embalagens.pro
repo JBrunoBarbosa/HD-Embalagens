@@ -17,11 +17,7 @@ SOURCES += \
     src/sources/saleimpl.cpp \
     src/sources/saleswidget.cpp \
     src/sources/userimpl.cpp \
-    src/sources/userwidget.cpp \
-    tests/Unitario/unitmain.cpp \
-    tests/Unitario/unitproduct.cpp \
-    tests/Unitario/unitsale.cpp \
-    tests/Unitario/unituser.cpp
+    src/sources/userwidget.cpp
 
 HEADERS += \
     src/headers/databasemanager.h \
@@ -34,10 +30,7 @@ HEADERS += \
     src/headers/productwidget.h \
     src/headers/user.h \
     src/headers/userimpl.h \
-    src/headers/userwidget.h \
-    tests/Unitario/unitproduct.h \
-    tests/Unitario/unitsale.h \
-    tests/Unitario/unituser.h
+    src/headers/userwidget.h
 
 FORMS += \
     src/ui/mainwindow.ui \
@@ -52,3 +45,14 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     icon.qrc\
+
+CONFIG(debug, debug|release) {
+    SOURCES += tests/Unitario/unitmain.cpp\
+                tests/Unitario/unitproduct.cpp \
+                tests/Unitario/unitsale.cpp \
+                tests/Unitario/unituser.cpp
+
+    HEADERS += tests/Unitario/unitproduct.h \
+               tests/Unitario/unitsale.h \
+               tests/Unitario/unituser.h
+}
