@@ -1,10 +1,10 @@
-name: CI
+name: Build and Test
 
 on: [pull_request]
 
 jobs:
-  build-and-test:
-    runs-on: windows-latest
+  build:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
@@ -12,14 +12,14 @@ jobs:
 
     - name: Install Qt and dependencies
       run: |
-        choco install qt5 -y
-        choco install mingw make -y
+        sudo apt-get update
+        sudo apt-get install -y qt5-default qtbase5-dev qtdeclarative5-dev qtquickcontrols2-5-dev libqt5sql5 libqt5sql5-sqlite
 
     - name: Build project
       run: |
-        qmake -o Makefile YourProject.pro
-        mingw32-make
+        qmake -o Makefile HD-Embalagens.pro
+        make
 
     - name: Run unit tests
       run: |
-        mingw32-make run_unit_tests
+        make run_unit_tests
