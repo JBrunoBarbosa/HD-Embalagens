@@ -1,7 +1,7 @@
 #ifndef PRODUCT_IMPL_H
 #define PRODUCT_IMPL_H
 
-#include "product.h"
+#include "../headers/product.h"
 
 class ProductImpl : public Product {
 public:
