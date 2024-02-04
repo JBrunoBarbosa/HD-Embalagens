@@ -1,5 +1,5 @@
 #include "../headers/userwidget.h"
-#include "../headers/userImpl.h"
+#include "../headers/userimpl.h"
 #include "ui_userwidgetwindow.h"
 
 UserWidget::UserWidget(QWidget *parent) :
