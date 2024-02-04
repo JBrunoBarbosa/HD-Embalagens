@@ -1,5 +1,5 @@
-#include "../headers/userimpl.h"
-#include "UnitUser.h"
+#include "../../src/headers/userimpl.h"
+#include "../../tests/Unitario/unituser.h"
 #include <cassert>
 
 void UnitUser::testId() {

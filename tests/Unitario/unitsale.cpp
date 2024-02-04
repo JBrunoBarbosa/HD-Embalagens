@@ -1,5 +1,5 @@
-#include "../headers/saleimpl.h"
-#include "UnitSale.h"
+#include "../../src/headers/saleimpl.h"
+#include "../../tests/Unitario/unitsale.h"
 #include <cassert>
 
 void UnitSale::testId() {

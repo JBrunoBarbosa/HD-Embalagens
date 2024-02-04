@@ -1,7 +1,7 @@
 #ifndef UNITPRODUCT_H
 #define UNITPRODUCT_H
 
-#include "../headers/productimpl.h"
+#include "../../src/headers/productimpl.h"
 
 class UnitProduct {
 public:

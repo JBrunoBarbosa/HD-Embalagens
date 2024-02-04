@@ -62,7 +62,7 @@ public:
      * @param placeholders Um mapeamento de valores de substituição na condição.
      * @return Um vetor de mapeamentos com os registros selecionados.
      */
-    QVector<QvariantMap> selectRecords(const QString& tableName, const QString& condition, const QVariantMap& placeholders = QVariantMap());
+    QVector<QVariantMap> selectRecords(const QString& tableName, const QString& condition, const QVariantMap& placeholders = QVariantMap());
 
 private:
     QSqlDatabase db;

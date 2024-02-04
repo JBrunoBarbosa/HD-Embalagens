@@ -1,5 +1,5 @@
-#include "../headers/productimpl.h"
-#include "UnitProduct.h"
+#include "../../src/headers/productimpl.h"
+#include "unitproduct.h"
 #include <cassert>
 
 void UnitProduct::testId() {

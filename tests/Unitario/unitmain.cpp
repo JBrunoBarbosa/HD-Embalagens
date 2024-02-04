@@ -1,6 +1,6 @@
-#include "unituser.h"
-#include "unitsale.h"
-#include "unitproduct.h"
+#include "../../tests/unitario/unituser.h"
+#include "../../tests/unitario/unitsale.h"
+#include "../../tests/unitario/unitproduct.h"
 #include <cassert>
 
 int main() {
