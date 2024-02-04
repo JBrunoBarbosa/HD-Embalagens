@@ -1,6 +1,7 @@
 #include "../headers/productwidget.h"
 #include "../headers/productimpl.h"
 #include "ui_productwidgetwindow.h"
+#include <QDebug>
 
 ProductWidget::ProductWidget(QWidget *parent) :
     QWidget(parent),
