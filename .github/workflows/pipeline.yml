@@ -13,7 +13,7 @@ jobs:
     - name: Install Qt Creator and build essentials
       run: |
         sudo apt-get update -y
-        sudo apt-get install qtcreator build-essential -y
+        sudo apt-get install qtcreator build-essential qt5-qmake -y
 
     - name: Build project
       run: |
