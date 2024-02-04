@@ -1,6 +1,7 @@
 #include "../headers/userwidget.h"
 #include "../headers/userimpl.h"
 #include "ui_userwidgetwindow.h"
+#include <QDebug>
 
 UserWidget::UserWidget(QWidget *parent) :
     QWidget(parent),
