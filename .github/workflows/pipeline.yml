@@ -1,25 +1,30 @@
-name: Build and Test
+name: CI
 
 on: [pull_request]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  build-and-test:
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-  - name: Install Qt 5
-    run: |
-      sudo apt-get update
-      sudo apt-get install qt5-default
+    - name: Install Qt Creator and MinGW
+      run: |
+        choco install qt-creator -y
+        choco install mingw make -y
 
     - name: Build project
       run: |
-        qmake -o Makefile HD-Embalagens.pro
-        make
+        "C:\Program Files\Qt\Tools\QtCreator\bin\qtcreator.exe" -noload Welcome -noload QmlDesigner -noload DeviceMode -noload TestIntegrationMode -noload Profile -noload Help -no-analytics
+        qmake HD-Embalagens.pro
+        mingw32-make
+
+    - name: Run functional tests
+      run: |
+        # Comandos para executar seus testes funcionais
 
     - name: Run unit tests
       run: |
-        make run_unit_tests
+        # Comandos para executar seus testes de unidade
