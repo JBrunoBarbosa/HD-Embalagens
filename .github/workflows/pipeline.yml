@@ -13,7 +13,8 @@ jobs:
     - name: Install Qt Creator and build essentials
       run: |
         sudo apt-get update -y
-        sudo apt-get install qtcreator build-essential qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5sql5 -y mingw 
+        sudo apt-get install qtcreator build-essential qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5sql5
+        sudo apt-get install mingw
 
     - name: Build project
       run: |
