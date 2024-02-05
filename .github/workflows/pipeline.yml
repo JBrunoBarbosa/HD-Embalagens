@@ -13,7 +13,7 @@ jobs:
     - name: Install Qt Creator and build essentials
       run: |
         sudo apt-get update -y
-        sudo apt-get install qtcreator build-essential qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5sql5 -y
+        sudo apt-get install qtcreator build-essential qt5-qmake qtbase5-dev qtdeclarative5-dev libqt5sql5 -y mingw 
 
     - name: Build project
       run: |
@@ -23,7 +23,6 @@ jobs:
     - name: Run unit tests
       run: |
         qmake HD-Embalagens.pro CONFIG+=unit_tests
-        make 
         ./testes_unitarios
 
     - name: Run functional tests
