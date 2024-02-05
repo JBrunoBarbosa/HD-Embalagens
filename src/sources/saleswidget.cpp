@@ -1,7 +1,8 @@
 #include "../headers/saleswidget.h"
-#include "../headers/saleImpl.h"
-#include "../headers/productImpl.h"
+#include "../headers/saleimpl.h"
+#include "../headers/productimpl.h"
 #include "ui_saleswidgetwindow.h"
+#include <QDebug>
 
 SalesWidget::SalesWidget(QWidget *parent) :
     QWidget(parent),

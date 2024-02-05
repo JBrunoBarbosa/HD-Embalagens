@@ -1,0 +1,7 @@
+<map id="UnitSale::testQuantity" name="UnitSale::testQuantity">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,155,57"/>
+<area shape="rect" id="Node000002" href="$class_sale_impl.html#a6dbe6bba676663e8ab82f80d86058ada" title="Obtém a quantidade da venda." alt="" coords="203,5,349,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,32,187,27,188,33,155,37"/>
+<area shape="rect" id="Node000003" href="$class_sale_impl.html#ae5bfd5a11a7dbd02d403d7573616fcbe" title="Define a quantidade da venda." alt="" coords="203,56,349,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,51,188,55,187,61,155,56"/>
+</map>

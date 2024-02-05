@@ -2,7 +2,7 @@
 #define USERWIDGET_H
 
 #include <QWidget>
-#include "databasemanager.h"
+#include "../headers/databasemanager.h"
 
 namespace Ui {
 class UserWidget;

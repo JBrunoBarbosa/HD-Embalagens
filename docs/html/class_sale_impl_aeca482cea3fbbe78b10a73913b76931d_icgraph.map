@@ -1,0 +1,7 @@
+<map id="SaleImpl::getId" name="SaleImpl::getId">
+<area shape="rect" id="Node000001" title="Obtém o ID da venda." alt="" coords="261,5,368,32"/>
+<area shape="rect" id="Node000002" href="$class_unit_sale.html#a90673aff4b683e6c266d59818f7ae405" title=" " alt="" coords="103,5,213,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,21,214,21,214,16,245,16"/>
+<area shape="rect" id="Node000003" href="$unitmain_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

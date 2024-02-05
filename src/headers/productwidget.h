@@ -2,7 +2,7 @@
 #define PRODUCTWIDGET_H
 
 #include <QWidget>
-#include "databasemanager.h"
+#include "../headers/databasemanager.h"
 
 namespace Ui {
 class ProductWidget;

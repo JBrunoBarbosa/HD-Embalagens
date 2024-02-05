@@ -1,0 +1,5 @@
+<map id="Sale" name="Sale">
+<area shape="rect" id="Node000001" title="A classe Sale define a interface para uma venda genérica." alt="" coords="5,5,111,288"/>
+<area shape="rect" id="Node000002" href="$class_sale_impl.html" title=" " alt="" coords="5,336,111,704"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="61,303,61,337,55,337,55,303"/>
+</map>
