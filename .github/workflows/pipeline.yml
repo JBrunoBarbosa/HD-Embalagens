@@ -22,9 +22,9 @@ jobs:
 
     - name: Run unit tests
       run: |
-        make clean
-        qmake CONFIG+=test
-        make
+        run: |
+        qmake HD-Embalagens.pro CONFIG+=unit_tests
+        make ./testes_unitarios
 
     - name: Run functional tests
       run: |
