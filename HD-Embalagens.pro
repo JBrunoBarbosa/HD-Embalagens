@@ -40,7 +40,8 @@ HEADERS += \
     src/headers/productimpl.h \
     src/headers/productwidget.h \
     src/headers/user.h \
-    src/headers/userimpl.h
+    src/headers/userimpl.h \
+    src/headers/userwidget.h \
 
 FORMS += \
     src/ui/mainwindow.ui \
