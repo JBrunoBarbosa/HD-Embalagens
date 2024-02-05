@@ -1,0 +1,7 @@
+<map id="UnitProduct::testQuantityInStock" name="UnitProduct::testQuantityInStock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,39,174,81"/>
+<area shape="rect" id="Node000002" href="$class_product_impl.html#add902b451584c1047990dbaf09c84621" title="Obtém a quantidade em estoque do produto." alt="" coords="222,5,387,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,44,206,39,206,45,174,50"/>
+<area shape="rect" id="Node000003" href="$class_product_impl.html#a346799795b7bb445781a4624c4b88343" title="Define a quantidade em estoque do produto." alt="" coords="222,72,387,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,70,206,75,206,81,174,76"/>
+</map>

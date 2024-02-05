@@ -1,0 +1,7 @@
+<map id="SaleImpl::getName" name="SaleImpl::getName">
+<area shape="rect" id="Node000001" title="Obtém o nome da venda." alt="" coords="285,5,416,32"/>
+<area shape="rect" id="Node000002" href="$class_unit_sale.html#a0484e2a41d9cc7c59b3ff22701ab9bda" title=" " alt="" coords="103,5,237,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,21,237,21,237,16,269,16"/>
+<area shape="rect" id="Node000003" href="$unitmain_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

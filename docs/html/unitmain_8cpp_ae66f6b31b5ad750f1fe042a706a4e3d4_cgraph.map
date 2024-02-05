@@ -1,0 +1,81 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,512,55,539"/>
+<area shape="rect" id="Node000002" href="$class_unit_product.html#adf6c12d224151eca12afc1f43b2bcf63" title=" " alt="" coords="105,56,289,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="30,511,36,432,49,316,70,199,84,152,100,118,117,101,137,88,140,92,121,105,105,122,89,154,75,200,54,317,41,433,35,512"/>
+<area shape="rect" id="Node000005" href="$class_unit_user.html#a2c8587a30a8fb3a51767051e550c3202" title=" " alt="" coords="137,132,257,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="30,511,53,352,74,259,86,221,101,194,118,177,139,163,142,168,121,181,105,198,91,223,79,260,58,353,35,512"/>
+<area shape="rect" id="Node000007" href="$class_unit_sale.html#a802081b5fd99fd5b264af17781329b44" title=" " alt="" coords="133,208,261,235"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="30,511,53,374,74,297,87,266,101,245,117,233,121,237,105,249,91,268,79,298,59,375,36,512"/>
+<area shape="rect" id="Node000010" href="$class_unit_user.html#afa113568cb65e82487e6a37f6705d28c" title=" " alt="" coords="130,259,264,285"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="29,512,31,470,41,412,63,350,79,321,101,295,114,286,117,290,104,299,84,324,68,352,46,413,37,470,34,512"/>
+<area shape="rect" id="Node000012" href="$class_unit_product.html#a6947f62e1e2153f87ccf389c3f2508af" title=" " alt="" coords="132,309,262,336"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="30,511,36,478,48,433,69,386,83,365,101,346,116,336,119,340,104,350,87,368,73,389,53,435,41,479,35,512"/>
+<area shape="rect" id="Node000014" href="$class_unit_sale.html#a90673aff4b683e6c266d59818f7ae405" title=" " alt="" coords="142,360,252,387"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="33,511,55,455,75,424,101,397,125,383,128,388,104,401,79,427,60,458,38,513"/>
+<area shape="rect" id="Node000016" href="$class_unit_user.html#ab80e07877f65cb82827ce4cdc65d5598" title=" " alt="" coords="141,411,253,437"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="39,510,64,478,101,447,126,436,128,441,104,452,68,482,43,513"/>
+<area shape="rect" id="Node000018" href="$class_unit_product.html#a7a7c5bd2dc0860a4da4de54ea1b56aed" title=" " alt="" coords="120,461,274,488"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="54,514,102,497,126,490,128,495,103,503,56,519"/>
+<area shape="rect" id="Node000020" href="$class_unit_sale.html#a0484e2a41d9cc7c59b3ff22701ab9bda" title=" " alt="" coords="130,512,264,539"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="55,523,114,523,114,528,55,528"/>
+<area shape="rect" id="Node000022" href="$class_unit_user.html#a0e28fd95ba70f530d1bec2a9b60cf87f" title=" " alt="" coords="129,563,265,589"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="56,532,103,548,128,555,126,561,102,553,54,537"/>
+<area shape="rect" id="Node000024" href="$class_unit_user.html#af8b6dc1d57981404a637be6137df1a15" title=" " alt="" coords="118,613,276,640"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="43,538,68,569,104,599,115,605,112,609,101,604,64,573,39,541"/>
+<area shape="rect" id="Node000026" href="$class_unit_user.html#abde18d497c9e27d43761c6e08a5d1fe8" title=" " alt="" coords="114,664,280,691"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="38,538,60,593,79,624,104,650,111,654,108,659,101,654,75,627,55,595,33,540"/>
+<area shape="rect" id="Node000028" href="$class_unit_product.html#a49b109baa289de27c61dc6b72f0d55e8" title=" " alt="" coords="103,715,291,741"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="35,539,41,572,53,616,73,662,87,682,104,701,109,704,105,708,101,705,83,686,69,664,48,618,36,573,30,540"/>
+<area shape="rect" id="Node000030" href="$class_unit_sale.html#a7f08e36212196e616dd0b8f039af3e00" title=" " alt="" coords="122,765,272,792"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="34,539,37,580,46,638,68,699,84,727,105,751,110,756,107,760,101,755,79,730,63,701,41,639,31,581,29,539"/>
+<area shape="rect" id="Node000033" href="$class_unit_product.html#a916e1babe3139b7e3955978c7cdafb44" title=" " alt="" coords="113,867,281,909"/>
+<area shape="poly" id="edge32_Node000001_Node000033" title=" " alt="" coords="35,539,39,585,51,653,71,730,86,767,105,803,127,831,153,855,149,859,123,835,100,805,82,769,66,731,45,654,34,586,29,539"/>
+<area shape="rect" id="Node000036" href="$class_unit_sale.html#a8fca941629c6dde7c8ef1e0095314eb8" title=" " alt="" coords="119,967,275,993"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="35,539,42,616,56,729,77,842,90,888,105,920,124,941,148,957,145,961,121,945,100,923,85,890,71,844,50,730,37,617,30,540"/>
+<area shape="rect" id="Node000038" href="$class_unit_product.html#a06b9d42785ff681b314e21ff26dc8e37" title=" " alt="" coords="114,1051,280,1077"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="35,539,39,630,51,768,73,908,87,964,105,1004,124,1025,147,1041,144,1045,120,1029,100,1007,82,966,67,909,46,769,34,631,29,539"/>
+<area shape="rect" id="Node000003" href="$class_product_impl.html#a0701af41d260801c9f480f3ab233829e" title="Obtém a data de adição do produto." alt="" coords="342,5,522,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="262,53,351,33,352,38,263,58"/>
+<area shape="rect" id="Node000004" href="$class_product_impl.html#aad26d1d8c1928eda34be92b66add85b8" title="Define a data de adição do produto." alt="" coords="342,56,522,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="289,67,326,67,326,72,289,72"/>
+<area shape="rect" id="Node000006" href="$class_user_impl.html#a22cfcb7e705da9eaf4a3247d556bdd98" title="Obtém o CPF do usuário." alt="" coords="373,107,490,133"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="257,136,357,125,358,131,258,142"/>
+<area shape="rect" id="Node000008" href="$class_sale_impl.html#a1e753b1b153695a2ca33acc0a9fb6de7" title="Obtém a data da venda." alt="" coords="370,157,494,184"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="260,205,354,185,355,190,262,210"/>
+<area shape="rect" id="Node000009" href="$class_sale_impl.html#af9af969bd4b62f48f5115941eadf2779" title="Define a data da venda." alt="" coords="370,208,494,235"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="261,219,354,219,354,224,261,224"/>
+<area shape="rect" id="Node000011" href="$class_user_impl.html#a9c5fa28e0fb29730314182321eb531a7" title="Obtém o email do usuário." alt="" coords="366,259,497,285"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="264,269,350,269,350,275,264,275"/>
+<area shape="rect" id="Node000013" href="$class_product_impl.html#abd725182d4de2a685e8e52cf2a7c5d7d" title="Obtém o ID do produto." alt="" coords="369,309,495,336"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="262,320,353,320,353,325,262,325"/>
+<area shape="rect" id="Node000015" href="$class_sale_impl.html#aeca482cea3fbbe78b10a73913b76931d" title="Obtém o ID da venda." alt="" coords="378,360,485,387"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="253,371,362,371,362,376,253,376"/>
+<area shape="rect" id="Node000017" href="$class_user_impl.html#aa43230c13fc99d282961485e89d4c809" title="Obtém o ID do usuário." alt="" coords="378,411,486,437"/>
+<area shape="poly" id="edge16_Node000016_Node000017" title=" " alt="" coords="253,421,362,421,362,427,253,427"/>
+<area shape="rect" id="Node000019" href="$class_product_impl.html#af1ec31e937fe589a2480fa8fd74e341d" title="Obtém o nome do produto." alt="" coords="357,461,507,488"/>
+<area shape="poly" id="edge18_Node000018_Node000019" title=" " alt="" coords="274,472,341,472,341,477,274,477"/>
+<area shape="rect" id="Node000021" href="$class_sale_impl.html#a3ba63cb31b636c59da9c9e41c24c7cc2" title="Obtém o nome da venda." alt="" coords="366,512,497,539"/>
+<area shape="poly" id="edge20_Node000020_Node000021" title=" " alt="" coords="264,523,350,523,350,528,264,528"/>
+<area shape="rect" id="Node000023" href="$class_user_impl.html#aded71e41cb3949407da410540038c586" title="Obtém o nome do usuário." alt="" coords="366,563,498,589"/>
+<area shape="poly" id="edge22_Node000022_Node000023" title=" " alt="" coords="265,573,350,573,350,579,265,579"/>
+<area shape="rect" id="Node000025" href="$class_user_impl.html#a2ab29a8140faf706dd6b209f45d4ab66" title="Obtém a senha do usuário." alt="" coords="354,613,509,640"/>
+<area shape="poly" id="edge24_Node000024_Node000025" title=" " alt="" coords="276,624,339,624,339,629,276,629"/>
+<area shape="rect" id="Node000027" href="$class_user_impl.html#ae75336751a63059f485a100d34c35617" title="Obtém a permissão do usuário." alt="" coords="350,664,513,691"/>
+<area shape="poly" id="edge26_Node000026_Node000027" title=" " alt="" coords="280,675,335,675,335,680,280,680"/>
+<area shape="rect" id="Node000029" href="$class_product_impl.html#aee65766747a24586f047a479cd3234d4" title="Obtém o preço por unidade do produto." alt="" coords="339,715,524,741"/>
+<area shape="poly" id="edge28_Node000028_Node000029" title=" " alt="" coords="292,725,324,725,324,731,292,731"/>
+<area shape="rect" id="Node000031" href="$class_sale_impl.html#a6dbe6bba676663e8ab82f80d86058ada" title="Obtém a quantidade da venda." alt="" coords="359,765,505,792"/>
+<area shape="poly" id="edge30_Node000030_Node000031" title=" " alt="" coords="272,776,343,776,343,781,272,781"/>
+<area shape="rect" id="Node000032" href="$class_sale_impl.html#ae5bfd5a11a7dbd02d403d7573616fcbe" title="Define a quantidade da venda." alt="" coords="359,816,505,843"/>
+<area shape="poly" id="edge31_Node000030_Node000032" title=" " alt="" coords="263,790,352,810,351,815,262,795"/>
+<area shape="rect" id="Node000034" href="$class_product_impl.html#add902b451584c1047990dbaf09c84621" title="Obtém a quantidade em estoque do produto." alt="" coords="349,867,514,909"/>
+<area shape="poly" id="edge33_Node000033_Node000034" title=" " alt="" coords="281,885,333,885,333,891,281,891"/>
+<area shape="rect" id="Node000035" href="$class_product_impl.html#a346799795b7bb445781a4624c4b88343" title="Define a quantidade em estoque do produto." alt="" coords="349,933,514,976"/>
+<area shape="poly" id="edge34_Node000033_Node000035" title=" " alt="" coords="275,907,340,926,338,931,273,912"/>
+<area shape="rect" id="Node000037" href="$class_sale_impl.html#a339194832e2ed446138852d2da583fa8" title="Obtém o preço da venda." alt="" coords="355,1000,508,1027"/>
+<area shape="poly" id="edge36_Node000036_Node000037" title=" " alt="" coords="276,988,340,998,339,1003,275,994"/>
+<area shape="rect" id="Node000039" href="$class_product_impl.html#acfe816ea3e19e0994deebe7933bff24c" title="Obtém o fornecedor do produto." alt="" coords="350,1051,513,1077"/>
+<area shape="poly" id="edge38_Node000038_Node000039" title=" " alt="" coords="280,1061,335,1061,335,1067,280,1067"/>
+<area shape="rect" id="Node000040" href="$class_product_impl.html#aaf86cdecee88355ac3568cdf4f8b70d7" title="Define o fornecedor do produto." alt="" coords="350,1101,513,1128"/>
+<area shape="poly" id="edge39_Node000038_Node000040" title=" " alt="" coords="263,1075,352,1095,351,1100,262,1081"/>
+</map>

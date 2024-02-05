@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_user.html" title="A classe User define a interface para um usuário genérico." alt="" coords="5,5,54,32"/>
+<area shape="rect" id="Node000001" href="$class_user_impl.html" title=" " alt="" coords="102,5,174,32"/>
+<area shape="poly" id="edge8_Node000000_Node000001" title=" " alt="" coords="70,16,101,16,101,21,70,21"/>
+</map>

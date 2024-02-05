@@ -1,0 +1,9 @@
+<map id="UserImpl" name="UserImpl">
+<area shape="rect" id="Node000001" title=" " alt="" coords="100,459,215,784"/>
+<area shape="rect" id="Node000002" href="$class_user.html" title="A classe User define a interface para um usuário genérico." alt="" coords="5,5,120,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,344,126,458,121,459,97,346"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="144,133,171,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,202,160,442,155,442,155,202"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="195,133,253,203"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,203,186,442,181,441,216,202"/>
+</map>

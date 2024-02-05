@@ -1,0 +1,9 @@
+<map id="QWidget" name="QWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="180,5,244,75"/>
+<area shape="rect" id="Node000002" href="$class_product_widget.html" title=" " alt="" coords="5,123,131,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,81,120,125,117,121,167,77"/>
+<area shape="rect" id="Node000003" href="$class_sales_widget.html" title=" " alt="" coords="155,123,269,213"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,89,215,123,209,123,209,89"/>
+<area shape="rect" id="Node000004" href="$class_user_widget.html" title=" " alt="" coords="293,123,401,213"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="257,79,301,121,298,125,253,83"/>
+</map>

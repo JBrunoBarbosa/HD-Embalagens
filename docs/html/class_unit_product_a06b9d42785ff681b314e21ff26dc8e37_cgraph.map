@@ -1,0 +1,7 @@
+<map id="UnitProduct::testSupplier" name="UnitProduct::testSupplier">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,172,57"/>
+<area shape="rect" id="Node000002" href="$class_product_impl.html#acfe816ea3e19e0994deebe7933bff24c" title="Obtém o fornecedor do produto." alt="" coords="220,5,383,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,31,204,28,205,33,173,37"/>
+<area shape="rect" id="Node000003" href="$class_product_impl.html#aaf86cdecee88355ac3568cdf4f8b70d7" title="Define o fornecedor do produto." alt="" coords="220,56,383,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,51,205,55,204,60,172,57"/>
+</map>

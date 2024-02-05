@@ -1,0 +1,5 @@
+<map id="User" name="User">
+<area shape="rect" id="Node000001" title="A classe User define a interface para um usuário genérico." alt="" coords="5,5,120,331"/>
+<area shape="rect" id="Node000002" href="$class_user_impl.html" title=" " alt="" coords="5,379,120,811"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,345,65,379,60,379,60,345"/>
+</map>

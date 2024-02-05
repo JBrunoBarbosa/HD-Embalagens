@@ -1,0 +1,5 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="Node000001" title="A classe MainWindow é a janela principal da aplicação." alt="" coords="5,123,119,213"/>
+<area shape="rect" id="Node000002" href="$class_q_main_window.html" title=" " alt="" coords="13,5,111,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,89,65,123,59,123,59,89"/>
+</map>

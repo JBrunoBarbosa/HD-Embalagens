@@ -1,0 +1,5 @@
+<map id="SalesWidget" name="SalesWidget">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,123,119,213"/>
+<area shape="rect" id="Node000002" href="$class_q_widget.html" title=" " alt="" coords="30,5,94,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,89,65,123,59,123,59,89"/>
+</map>
