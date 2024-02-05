@@ -2,8 +2,8 @@
 #include "unitsale.h"
 #include "unitproduct.h"
 #include <cassert>
-#include <iostream>
 
+#ifdef MAIN_TEST
 
 int main() {
     UnitUser unitUser;
@@ -29,7 +29,6 @@ int main() {
     unitProduct.testQuantityInStock();
     unitProduct.testAddedDate();
 
-    std::cout << "All testes passed" << std::endl;
-
     return 0;
 }
+#endif
