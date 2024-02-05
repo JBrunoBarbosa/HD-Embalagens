@@ -59,7 +59,6 @@ RESOURCES += \
 # Alvo para os testes unitários
 unit_tests {
     HEADERS += \
-        src/headers/userwidget.h \
         tests/Unitario/unitproduct.h \
         tests/Unitario/unitsale.h \
         tests/Unitario/unituser.h
