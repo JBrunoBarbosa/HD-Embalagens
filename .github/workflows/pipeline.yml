@@ -22,7 +22,6 @@ jobs:
 
     - name: Run unit tests
       run: |
-        run: |
         qmake HD-Embalagens.pro CONFIG+=unit_tests
         make ./testes_unitarios
 
