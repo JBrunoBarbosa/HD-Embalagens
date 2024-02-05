@@ -29,6 +29,8 @@ int main() {
     unitProduct.testQuantityInStock();
     unitProduct.testAddedDate();
 
+    cout << "All testes passed" << endl;
+
     return 0;
 }
 #endif
